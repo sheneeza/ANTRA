@@ -1,3 +1,4 @@
+-- Northwind db
 --14. List all Products that has been sold at least once in last 27 years.
 SELECT DISTINCT p.ProductName, o.OrderDate
 FROM Products p JOIN [Order Details] od ON p.ProductID = od.ProductID JOIN Orders o  ON od.OrderID = o.OrderID
