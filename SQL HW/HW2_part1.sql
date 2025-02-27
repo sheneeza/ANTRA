@@ -1,3 +1,4 @@
+-- ADVENTUREWORKS DB
 --1. How many products can you find in the Production.Product table?
 SELECT COUNT(ProductID) AS TotalNumOfProducts
 FROM Production.Product
